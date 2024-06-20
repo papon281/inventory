@@ -1,0 +1,417 @@
+2024-06-20T14:55:48.658+06:00  INFO 8492 --- [main] com.inventory.InventoryMain              : Starting InventoryMain using Java 21.0.1 with PID 8492 (D:\inventory\target\classes started by HP in D:\inventory)
+2024-06-20T14:55:48.658+06:00  INFO 8492 --- [main] com.inventory.InventoryMain              : No active profile set, falling back to 1 default profile: "default"
+2024-06-20T14:55:49.548+06:00  INFO 8492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-20T14:55:49.566+06:00  INFO 8492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-06-20T14:55:49.903+06:00 DEBUG 8492 --- [main] o.a.catalina.core.AprLifecycleListener   : The Apache Tomcat Native library could not be found using names [tcnative-2, libtcnative-2, tcnative-1, libtcnative-1] on the java.library.path [C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;.]. The errors reported were [Can't load library: D:\inventory\bin\tcnative-2.dll, Can't load library: D:\inventory\bin\libtcnative-2.dll, Can't load library: D:\inventory\bin\tcnative-1.dll, Can't load library: D:\inventory\bin\libtcnative-1.dll, no tcnative-2 in java.library.path: C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;., no libtcnative-2 in java.library.path: C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;., no tcnative-1 in java.library.path: C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;., no libtcnative-1 in java.library.path: C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;.]
+
+org.apache.tomcat.jni.LibraryNotFoundError: Can't load library: D:\inventory\bin\tcnative-2.dll, Can't load library: D:\inventory\bin\libtcnative-2.dll, Can't load library: D:\inventory\bin\tcnative-1.dll, Can't load library: D:\inventory\bin\libtcnative-1.dll, no tcnative-2 in java.library.path: C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;., no libtcnative-2 in java.library.path: C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;., no tcnative-1 in java.library.path: C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;., no libtcnative-1 in java.library.path: C:\Users\HP\.jdks\openjdk-21.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\HP\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\Java\jdk-11\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;.
+	at org.apache.tomcat.jni.Library.<init>(Library.java:91) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.tomcat.jni.Library.initialize(Library.java:146) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:193) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.apache.catalina.core.AprLifecycleListener.isAprAvailable(AprLifecycleListener.java:107) ~[tomcat-embed-core-10.1.11.jar:10.1.11]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getDefaultServerLifecycleListeners(TomcatServletWebServerFactory.java:182) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.<init>(TomcatServletWebServerFactory.java:129) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat.tomcatServletWebServerFactory(ServletWebServerFactoryConfiguration.java:73) ~[spring-boot-autoconfigure-3.1.2.jar:3.1.2]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:218) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:602) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.inventory.InventoryMain.main(InventoryMain.java:26) ~[classes/:na]
+
+2024-06-20T14:55:50.344+06:00 DEBUG 8492 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol port=8084)
+2024-06-20T14:55:50.370+06:00 DEBUG 8492 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.coyote.http11.Http11NioProtocol bindOnInit=false)
+2024-06-20T14:55:50.374+06:00 DEBUG 8492 --- [main] o.apache.tomcat.util.IntrospectionUtils  : IntrospectionUtils: setProperty(class org.apache.tomcat.util.net.NioEndpoint bindOnInit=false)
+2024-06-20T14:55:50.396+06:00 DEBUG 8492 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardHost[localhost] StandardEngine[Tomcat]
+2024-06-20T14:55:50.417+06:00 DEBUG 8492 --- [main] org.apache.catalina.core.ContainerBase   : Add child TomcatEmbeddedContext[] StandardEngine[Tomcat].StandardHost[localhost]
+2024-06-20T14:55:50.422+06:00  INFO 8492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2024-06-20T14:55:50.434+06:00  INFO 8492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-20T14:55:50.434+06:00  INFO 8492 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-06-20T14:55:50.437+06:00 DEBUG 8492 --- [main] o.apache.catalina.core.StandardContext   : Starting ROOT
+2024-06-20T14:55:50.451+06:00 DEBUG 8492 --- [main] o.apache.catalina.core.StandardContext   : Configuring default Resources
+2024-06-20T14:55:50.463+06:00 DEBUG 8492 --- [main] o.apache.catalina.core.StandardContext   : Processing standard container startup
+2024-06-20T14:55:50.463+06:00 DEBUG 8492 --- [main] o.apache.catalina.loader.WebappLoader    : Starting this Loader
+2024-06-20T14:55:50.543+06:00 DEBUG 8492 --- [main] o.a.c.authenticator.AuthenticatorBase    : No SingleSignOn Valve is present
+2024-06-20T14:55:50.544+06:00 DEBUG 8492 --- [main] o.apache.catalina.core.StandardContext   : No manager found. Checking if cluster manager should be used. Cluster configured: [false], Application distributable: [false]
+2024-06-20T14:55:50.548+06:00 DEBUG 8492 --- [main] o.apache.catalina.core.StandardContext   : Configured a manager of class [org.apache.catalina.session.StandardManager]
+2024-06-20T14:55:50.559+06:00  INFO 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-20T14:55:50.561+06:00  INFO 8492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1852 ms
+2024-06-20T14:55:50.636+06:00 DEBUG 8492 --- [main] org.apache.catalina.core.ContainerBase   : Add child StandardWrapper[dispatcherServlet] StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]
+2024-06-20T14:55:50.651+06:00 DEBUG 8492 --- [main] o.apache.catalina.core.StandardContext   : Configuring application event listeners
+2024-06-20T14:55:50.652+06:00 DEBUG 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Sending application start events
+2024-06-20T14:55:50.654+06:00 DEBUG 8492 --- [main] o.a.catalina.session.StandardManager     : Start: Loading persisted sessions
+2024-06-20T14:55:50.655+06:00 DEBUG 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Starting filters
+2024-06-20T14:55:50.656+06:00 DEBUG 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'requestContextFilter'
+2024-06-20T14:55:50.661+06:00 DEBUG 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'Tomcat WebSocket (JSR356) Filter'
+2024-06-20T14:55:50.661+06:00 DEBUG 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'corsFilter'
+2024-06-20T14:55:50.661+06:00 DEBUG 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'characterEncodingFilter'
+2024-06-20T14:55:50.662+06:00 DEBUG 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'springSecurityFilterChain'
+2024-06-20T14:55:50.662+06:00 DEBUG 8492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       :  Starting filter 'formContentFilter'
+2024-06-20T14:55:50.662+06:00 DEBUG 8492 --- [main] o.apache.catalina.core.StandardContext   : Starting completed
+2024-06-20T14:55:50.668+06:00 DEBUG 8492 --- [main] org.apache.catalina.mapper.Mapper        : Registered host [localhost]
+2024-06-20T14:55:50.669+06:00 DEBUG 8492 --- [main] o.apache.catalina.mapper.MapperListener  : Register Wrapper [dispatcherServlet] in Context [] for service [StandardService[Tomcat]]
+2024-06-20T14:55:50.670+06:00 DEBUG 8492 --- [main] o.apache.catalina.mapper.MapperListener  : Register Context [] for service [StandardService[Tomcat]]
+2024-06-20T14:55:50.671+06:00 DEBUG 8492 --- [main] o.apache.catalina.mapper.MapperListener  : Register host [localhost] at domain [null] for service [StandardService[Tomcat]]
+2024-06-20T14:55:50.813+06:00  INFO 8492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-20T14:55:50.874+06:00  INFO 8492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2024-06-20T14:55:50.875+06:00  INFO 8492 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-06-20T14:55:51.005+06:00  INFO 8492 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-06-20T14:55:51.129+06:00  INFO 8492 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-20T14:55:51.142+06:00  INFO 8492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-20T14:55:51.311+06:00  INFO 8492 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4601047
+2024-06-20T14:55:51.313+06:00  INFO 8492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-20T14:55:51.501+06:00  INFO 8492 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-06-20T14:55:52.183+06:00  INFO 8492 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-20T14:55:52.246+06:00  WARN 8492 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-06-20T14:55:52.246+06:00  WARN 8492 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "uk_6dotkott2kjsp8vw4d0m25fb7" of relation "users" does not exist, skipping
+2024-06-20T14:55:52.251+06:00  INFO 8492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20T14:55:52.364+06:00  WARN 8492 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-20T14:55:52.381+06:00  WARN 8492 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9754a96f-a8da-4b84-93b0-a314aa635c69
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-20T14:55:52.682+06:00  INFO 8492 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6d4f266, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b756a62, org.springframework.security.web.context.SecurityContextHolderFilter@351d726c, org.springframework.security.web.header.HeaderWriterFilter@289cf7db, org.springframework.security.web.authentication.logout.LogoutFilter@56b48163, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1791396b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@110318a7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@394b9e22, org.springframework.security.web.access.ExceptionTranslationFilter@40416321, org.springframework.security.web.access.intercept.AuthorizationFilter@96c840a]
+2024-06-20T14:55:53.001+06:00  INFO 8492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+2024-06-20T14:55:53.001+06:00 DEBUG 8492 --- [http-nio-8084-Acceptor] o.apache.tomcat.util.threads.LimitLatch  : Counting up[http-nio-8084-Acceptor] latch=0
+2024-06-20T14:55:53.011+06:00  INFO 8492 --- [main] com.inventory.InventoryMain              : Started InventoryMain in 4.739 seconds (process running for 5.069)
+2024-06-20T14:56:50.732+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718873810717 sessioncount 0
+2024-06-20T14:56:50.733+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 16 expired sessions: 0
+2024-06-20T14:57:50.773+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718873870773 sessioncount 0
+2024-06-20T14:57:50.774+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T14:58:50.832+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718873930832 sessioncount 0
+2024-06-20T14:58:50.833+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T14:59:50.873+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718873990873 sessioncount 0
+2024-06-20T14:59:50.874+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T15:00:50.923+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874050923 sessioncount 0
+2024-06-20T15:00:50.924+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T15:01:50.987+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874110986 sessioncount 0
+2024-06-20T15:01:50.988+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T15:02:51.059+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874171059 sessioncount 0
+2024-06-20T15:02:51.060+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T15:03:51.116+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874231116 sessioncount 0
+2024-06-20T15:03:51.116+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:04:51.176+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874291176 sessioncount 0
+2024-06-20T15:04:51.176+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:05:51.229+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874351229 sessioncount 0
+2024-06-20T15:05:51.229+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:06:51.299+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874411299 sessioncount 0
+2024-06-20T15:06:51.300+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T15:07:51.340+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874471340 sessioncount 0
+2024-06-20T15:07:51.340+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:08:51.396+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874531396 sessioncount 0
+2024-06-20T15:08:51.396+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:09:51.476+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874591476 sessioncount 0
+2024-06-20T15:09:51.476+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:10:51.541+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874651541 sessioncount 0
+2024-06-20T15:10:51.541+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:11:51.586+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874711586 sessioncount 0
+2024-06-20T15:11:51.586+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:12:51.644+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874771644 sessioncount 0
+2024-06-20T15:12:51.644+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:13:51.705+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874831705 sessioncount 0
+2024-06-20T15:13:51.705+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:14:51.752+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874891752 sessioncount 0
+2024-06-20T15:14:51.752+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:15:51.802+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718874951802 sessioncount 0
+2024-06-20T15:15:51.802+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:16:51.853+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875011853 sessioncount 0
+2024-06-20T15:16:51.869+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:17:51.920+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875071920 sessioncount 0
+2024-06-20T15:17:51.920+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:18:51.958+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875131958 sessioncount 0
+2024-06-20T15:18:51.958+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:19:52.007+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875192007 sessioncount 0
+2024-06-20T15:19:52.007+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:20:52.044+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875252044 sessioncount 0
+2024-06-20T15:20:52.044+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:21:52.091+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875312091 sessioncount 0
+2024-06-20T15:21:52.091+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:22:52.145+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875372145 sessioncount 0
+2024-06-20T15:22:52.145+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:23:52.199+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875432199 sessioncount 0
+2024-06-20T15:23:52.199+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:24:52.240+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875492240 sessioncount 0
+2024-06-20T15:24:52.240+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:25:52.279+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875552279 sessioncount 0
+2024-06-20T15:25:52.279+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:26:52.337+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875612337 sessioncount 0
+2024-06-20T15:26:52.337+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:27:52.390+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875672389 sessioncount 0
+2024-06-20T15:27:52.390+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T15:28:52.434+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875732434 sessioncount 0
+2024-06-20T15:28:52.434+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:29:52.508+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875792508 sessioncount 0
+2024-06-20T15:29:52.508+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:30:52.567+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875852567 sessioncount 0
+2024-06-20T15:30:52.567+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:31:52.622+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875912622 sessioncount 0
+2024-06-20T15:31:52.622+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:32:52.686+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718875972686 sessioncount 0
+2024-06-20T15:32:52.688+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T15:33:52.736+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876032735 sessioncount 0
+2024-06-20T15:33:52.737+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T15:34:52.778+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876092778 sessioncount 0
+2024-06-20T15:34:52.778+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:35:52.850+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876152850 sessioncount 0
+2024-06-20T15:35:52.850+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:36:52.911+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876212911 sessioncount 0
+2024-06-20T15:36:52.911+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:37:52.958+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876272958 sessioncount 0
+2024-06-20T15:37:52.958+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:38:53.026+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876333026 sessioncount 0
+2024-06-20T15:38:53.026+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:39:53.078+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876393078 sessioncount 0
+2024-06-20T15:39:53.078+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:40:53.110+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876453110 sessioncount 0
+2024-06-20T15:40:53.110+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:41:53.162+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876513162 sessioncount 0
+2024-06-20T15:41:53.162+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:42:53.236+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876573236 sessioncount 0
+2024-06-20T15:42:53.236+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:43:53.298+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876633298 sessioncount 0
+2024-06-20T15:43:53.298+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:44:53.368+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876693368 sessioncount 0
+2024-06-20T15:44:53.368+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:45:53.425+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876753425 sessioncount 0
+2024-06-20T15:45:53.425+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:46:53.469+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876813469 sessioncount 0
+2024-06-20T15:46:53.469+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:47:53.503+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876873503 sessioncount 0
+2024-06-20T15:47:53.503+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:48:53.549+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876933549 sessioncount 0
+2024-06-20T15:48:53.549+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:49:53.596+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718876993596 sessioncount 0
+2024-06-20T15:49:53.596+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:50:53.654+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877053654 sessioncount 0
+2024-06-20T15:50:53.654+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:51:53.696+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877113696 sessioncount 0
+2024-06-20T15:51:53.699+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T15:52:53.756+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877173756 sessioncount 0
+2024-06-20T15:52:53.756+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:53:53.815+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877233815 sessioncount 0
+2024-06-20T15:53:53.815+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:54:53.857+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877293857 sessioncount 0
+2024-06-20T15:54:53.857+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:55:53.922+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877353922 sessioncount 0
+2024-06-20T15:55:53.922+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:56:53.977+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877413977 sessioncount 0
+2024-06-20T15:56:53.982+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 5 expired sessions: 0
+2024-06-20T15:57:54.036+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877474036 sessioncount 0
+2024-06-20T15:57:54.036+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:58:54.086+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877534086 sessioncount 0
+2024-06-20T15:58:54.086+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T15:59:54.151+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877594151 sessioncount 0
+2024-06-20T15:59:54.151+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:00:54.213+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877654212 sessioncount 0
+2024-06-20T16:00:54.213+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:01:54.268+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877714268 sessioncount 0
+2024-06-20T16:01:54.268+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:02:54.296+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877774296 sessioncount 0
+2024-06-20T16:02:54.296+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:03:54.332+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877834332 sessioncount 0
+2024-06-20T16:03:54.332+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:04:54.375+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877894375 sessioncount 0
+2024-06-20T16:04:54.375+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:05:54.417+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718877954417 sessioncount 0
+2024-06-20T16:05:54.417+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:06:54.485+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878014483 sessioncount 0
+2024-06-20T16:06:54.486+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 3 expired sessions: 0
+2024-06-20T16:07:54.540+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878074540 sessioncount 0
+2024-06-20T16:07:54.540+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:08:54.603+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878134603 sessioncount 0
+2024-06-20T16:08:54.604+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:09:54.658+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878194658 sessioncount 0
+2024-06-20T16:09:54.659+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:10:54.727+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878254727 sessioncount 0
+2024-06-20T16:10:54.727+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:11:54.778+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878314778 sessioncount 0
+2024-06-20T16:11:54.778+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:12:54.818+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878374817 sessioncount 0
+2024-06-20T16:12:54.819+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:13:54.881+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878434881 sessioncount 0
+2024-06-20T16:13:54.882+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:14:54.938+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878494938 sessioncount 0
+2024-06-20T16:14:54.939+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:15:54.997+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878554997 sessioncount 0
+2024-06-20T16:15:54.998+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:16:55.037+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878615037 sessioncount 0
+2024-06-20T16:16:55.037+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:17:55.088+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878675088 sessioncount 0
+2024-06-20T16:17:55.089+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:18:55.140+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878735139 sessioncount 0
+2024-06-20T16:18:55.141+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:19:55.185+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878795185 sessioncount 0
+2024-06-20T16:19:55.187+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:20:55.250+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878855250 sessioncount 0
+2024-06-20T16:20:55.251+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:21:55.313+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878915313 sessioncount 0
+2024-06-20T16:21:55.320+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 6 expired sessions: 0
+2024-06-20T16:22:55.361+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718878975361 sessioncount 0
+2024-06-20T16:22:55.362+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:23:55.414+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879035413 sessioncount 0
+2024-06-20T16:23:55.415+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:24:55.468+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879095468 sessioncount 0
+2024-06-20T16:24:55.469+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:25:55.510+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879155509 sessioncount 0
+2024-06-20T16:25:55.510+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:26:55.565+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879215565 sessioncount 0
+2024-06-20T16:26:55.566+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:27:55.610+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879275609 sessioncount 0
+2024-06-20T16:27:55.611+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T16:28:55.648+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879335648 sessioncount 0
+2024-06-20T16:28:55.650+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:29:55.716+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879395716 sessioncount 0
+2024-06-20T16:29:55.717+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:30:55.762+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879455762 sessioncount 0
+2024-06-20T16:30:55.763+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:31:55.796+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879515796 sessioncount 0
+2024-06-20T16:31:55.798+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:32:55.846+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879575846 sessioncount 0
+2024-06-20T16:32:55.846+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:33:55.895+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879635895 sessioncount 0
+2024-06-20T16:33:55.895+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:34:55.963+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879695963 sessioncount 0
+2024-06-20T16:34:55.968+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:35:56.024+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879756023 sessioncount 0
+2024-06-20T16:35:56.034+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 11 expired sessions: 0
+2024-06-20T16:36:56.094+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879816094 sessioncount 0
+2024-06-20T16:36:56.095+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:37:56.152+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879876152 sessioncount 0
+2024-06-20T16:37:56.154+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T16:38:56.200+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879936199 sessioncount 0
+2024-06-20T16:38:56.200+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:39:56.267+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718879996267 sessioncount 0
+2024-06-20T16:39:56.268+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:40:56.300+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880056300 sessioncount 0
+2024-06-20T16:40:56.301+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:41:56.370+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880116370 sessioncount 0
+2024-06-20T16:41:56.371+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:42:56.434+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880176433 sessioncount 0
+2024-06-20T16:42:56.435+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T16:43:56.492+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880236491 sessioncount 0
+2024-06-20T16:43:56.492+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:44:56.560+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880296558 sessioncount 0
+2024-06-20T16:44:56.560+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T16:45:56.600+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880356598 sessioncount 0
+2024-06-20T16:45:56.601+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 3 expired sessions: 0
+2024-06-20T16:46:56.656+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880416656 sessioncount 0
+2024-06-20T16:46:56.657+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:47:56.732+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880476732 sessioncount 0
+2024-06-20T16:47:56.733+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:48:56.767+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880536767 sessioncount 0
+2024-06-20T16:48:56.767+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:49:56.815+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880596813 sessioncount 0
+2024-06-20T16:49:56.815+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T16:50:56.864+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880656864 sessioncount 0
+2024-06-20T16:50:56.865+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:51:56.933+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880716933 sessioncount 0
+2024-06-20T16:51:56.934+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:52:56.994+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880776994 sessioncount 0
+2024-06-20T16:52:56.995+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:53:57.065+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880837065 sessioncount 0
+2024-06-20T16:53:57.066+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:54:57.123+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880897121 sessioncount 0
+2024-06-20T16:54:57.123+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T16:55:57.181+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718880957181 sessioncount 0
+2024-06-20T16:55:57.181+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:56:57.222+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881017222 sessioncount 0
+2024-06-20T16:56:57.223+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T16:57:57.256+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881077256 sessioncount 0
+2024-06-20T16:57:57.256+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:58:57.300+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881137300 sessioncount 0
+2024-06-20T16:58:57.301+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T16:59:57.362+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881197362 sessioncount 0
+2024-06-20T16:59:57.364+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T17:00:57.432+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881257432 sessioncount 0
+2024-06-20T17:00:57.432+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:01:57.494+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881317494 sessioncount 0
+2024-06-20T17:01:57.495+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:02:57.542+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881377542 sessioncount 0
+2024-06-20T17:02:57.542+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:03:57.584+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881437582 sessioncount 0
+2024-06-20T17:03:57.586+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T17:04:57.633+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881497632 sessioncount 0
+2024-06-20T17:04:57.633+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:05:57.697+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881557697 sessioncount 0
+2024-06-20T17:05:57.700+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:06:57.767+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881617767 sessioncount 0
+2024-06-20T17:06:57.768+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:07:57.806+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881677805 sessioncount 0
+2024-06-20T17:07:57.806+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:08:57.858+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881737858 sessioncount 0
+2024-06-20T17:08:57.860+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T17:09:57.921+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881797921 sessioncount 0
+2024-06-20T17:09:57.928+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 6 expired sessions: 0
+2024-06-20T17:10:57.972+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881857970 sessioncount 0
+2024-06-20T17:10:57.972+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T17:11:58.035+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881918035 sessioncount 0
+2024-06-20T17:11:58.036+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:12:58.082+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718881978082 sessioncount 0
+2024-06-20T17:12:58.082+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:13:58.142+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882038142 sessioncount 0
+2024-06-20T17:13:58.142+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:14:58.171+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882098171 sessioncount 0
+2024-06-20T17:14:58.172+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:15:58.235+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882158235 sessioncount 0
+2024-06-20T17:15:58.237+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 2 expired sessions: 0
+2024-06-20T17:16:58.310+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882218310 sessioncount 0
+2024-06-20T17:16:58.310+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:17:58.361+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882278361 sessioncount 0
+2024-06-20T17:17:58.361+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:18:58.430+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882338430 sessioncount 0
+2024-06-20T17:18:58.431+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:19:58.591+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882398590 sessioncount 0
+2024-06-20T17:19:58.591+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:20:58.644+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882458644 sessioncount 0
+2024-06-20T17:20:58.644+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:21:58.708+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882518708 sessioncount 0
+2024-06-20T17:21:58.708+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:22:58.777+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882578776 sessioncount 0
+2024-06-20T17:22:58.777+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:23:58.837+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882638836 sessioncount 0
+2024-06-20T17:23:58.837+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:24:58.882+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882698882 sessioncount 0
+2024-06-20T17:24:58.883+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:25:58.949+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882758949 sessioncount 0
+2024-06-20T17:25:58.949+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:26:58.991+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882818990 sessioncount 0
+2024-06-20T17:26:58.991+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:27:59.052+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882879052 sessioncount 0
+2024-06-20T17:27:59.053+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:28:59.117+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882939116 sessioncount 0
+2024-06-20T17:28:59.117+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 1 expired sessions: 0
+2024-06-20T17:29:59.157+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718882999157 sessioncount 0
+2024-06-20T17:29:59.157+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:30:59.210+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718883059210 sessioncount 0
+2024-06-20T17:30:59.210+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:31:59.254+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718883119254 sessioncount 0
+2024-06-20T17:31:59.255+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:32:59.301+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718883179298 sessioncount 0
+2024-06-20T17:32:59.307+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 9 expired sessions: 0
+2024-06-20T17:33:59.366+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718883239366 sessioncount 0
+2024-06-20T17:33:59.366+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:34:59.422+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718883299422 sessioncount 0
+2024-06-20T17:34:59.422+06:00 DEBUG 8492 --- [Catalina-utility-1] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:35:59.480+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : Start expire sessions StandardManager at 1718883359480 sessioncount 0
+2024-06-20T17:35:59.480+06:00 DEBUG 8492 --- [Catalina-utility-2] o.apache.catalina.session.ManagerBase    : End expire sessions StandardManager processingTime 0 expired sessions: 0
+2024-06-20T17:36:45.068+06:00  INFO 8492 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20T17:36:45.099+06:00  INFO 8492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-20T17:36:45.099+06:00  INFO 8492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
