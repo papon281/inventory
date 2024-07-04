@@ -1,13 +1,14 @@
-package com.inventory.dto.response.success;
+package com.inventory.dto.response.error;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public abstract class SuccessResponse {
-    private Integer code;
+public class ErrorResponse {
     private String message;
 }

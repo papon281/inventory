@@ -13,15 +13,15 @@ import org.apache.hc.core5.http.HttpStatus;
 @Data
 @ToString
 public class SignupResponse extends SuccessResponse {
-    private String id;
-    private String name;
-    private String email;
-    private String password;
-    private Long mobileNumber;
-    private String dateOfBirth;
-    private String gender;
-    private String status;
-    private String createdOn;
+    private final String id;
+    private final String name;
+    private final String email;
+    private final String password;
+    private final Long mobileNumber;
+    private final String dateOfBirth;
+    private final String gender;
+    private final String status;
+    private final String createdOn;
 
     @Builder
     public SignupResponse(Integer code, String message, String id, String name, String email, String password,

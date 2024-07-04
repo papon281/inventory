@@ -15,13 +15,13 @@ import java.time.ZonedDateTime;
 @EqualsAndHashCode(callSuper = true)
 @ToString
 public class SignInResponse extends SuccessResponse {
-    private String name;
-    private String email;
-    private String loginTime;
-    private String createdTime;
+    private final String name;
+    private final String email;
+    private final String loginTime;
+    private final String createdTime;
 
     @Builder
-    public SignInResponse(Integer code, String message, String name, String email, String loginTime, String createdTime){
+    public SignInResponse(Integer code, String message, String name, String email, String loginTime, String createdTime) {
         super(code, message);
         this.name = name;
         this.email = email;
@@ -29,7 +29,7 @@ public class SignInResponse extends SuccessResponse {
         this.createdTime = createdTime;
     }
 
-    public static SignInResponse from(User user){
+    public static SignInResponse from(User user) {
         return SignInResponse.builder()
                 .code(HttpStatus.SC_OK)
                 .message("Login Success.")

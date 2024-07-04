@@ -109,11 +109,10 @@ public class DateUtil {
         }
     }
 
-    public static String dateConversion(String date) {
-        DateTimeFormatter originalFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        LocalDate parsedDate = LocalDate.parse(date, originalFormatter);
-        DateTimeFormatter newFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        System.out.println(parsedDate.format(newFormatter));
-        return parsedDate.format(newFormatter);
-    }
+//    public static String dateConversion(String date) {
+//        DateTimeFormatter originalFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+//        LocalDate parsedDate = LocalDate.parse(date, originalFormatter);
+//        DateTimeFormatter newFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+//        return parsedDate.format(newFormatter);
+//    }
 }

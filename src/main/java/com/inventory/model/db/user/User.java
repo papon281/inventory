@@ -45,7 +45,7 @@ public class User implements Serializable {
     private Gender gender;
 
     @Enumerated(value = EnumType.STRING)
-    @Column(name = DbUsers.STATUS)
+    @Column(name = DbUsers.STATUS, nullable = false)
     private Status status;
 
     @CreationTimestamp
@@ -54,5 +54,5 @@ public class User implements Serializable {
 
     @UpdateTimestamp
     @Column(name = DbUsers.LAST_UPDATED_ON)
-    private ZonedDateTime updatedOn;
+    private ZonedDateTime lastUpdatedOn;
 }

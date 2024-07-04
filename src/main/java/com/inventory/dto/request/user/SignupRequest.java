@@ -8,7 +8,6 @@ import lombok.ToString;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 import java.util.Objects;
 import java.util.logging.Logger;
 import java.util.regex.Pattern;
@@ -27,8 +26,8 @@ public class SignupRequest implements RequestValidator {
     @NotEmpty
     private String password;
     @Valid
-    @NotNull
-    private Long mobileNumber;
+    @NotEmpty
+    private String mobileNumber;
     @Valid
     @NotEmpty
     private String dateOfBirth;
@@ -43,7 +42,7 @@ public class SignupRequest implements RequestValidator {
             throw new RequestValidationException("Email Pattern not matched. Valid Email : example@gmail.com");
         }
 
-        if (!Pattern.matches(String.valueOf(Regex.MOBILE_NUMBER_PATTERN), String.valueOf(mobileNumber))) {
+        if (!Regex.MOBILE_NUMBER_PATTERN.matcher(mobileNumber).matches()) {
             throw new RequestValidationException("Mobile Number Pattern not matched. Valid Mobile Number : " +
                     "01711223344");
         }

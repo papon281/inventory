@@ -5,8 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class RequestValidationException extends RuntimeException {
-    public RequestValidationException(String message) {
+public class NotMatchedException extends RuntimeException{
+    public NotMatchedException(String message){
         super(message);
     }
 }
